@@ -1,0 +1,140 @@
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4 px 8 px rgba (0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.tabela-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+th {
+    background-color: #0056b3;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.secao-detalhes {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax (300px, 1r));
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba (0, 0, 0, 0.1);
+    border-left: 5px solid #0056b3;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+.card strong {
+    color: #003366;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.link-oficial { 
+    display: block; 
+    margin-top: 25px; 
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px; 
+    text-align: center; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+    font-weight: bold; 
+    font-size: 1.0em; 
+    width: fit-content; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.link-oficial:hover {
+    background-color: #218838;
+    transform: translateY(-2px); 
+}
+
+.link-oficial a:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 0.8em;
+}
