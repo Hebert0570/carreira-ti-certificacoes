@@ -1,7 +1,7 @@
 Carreira em TI
 
 Sobre o Projeto
-Este projeto consiste em uma página informativa estática desenvolvida para organizar minhas trilhas de estudo e as certificações essenciais para a área de Tecnologia da Informação, focados em Rede, infraestutura e Cloud. O objetivo principal deste repositório foi aplicar e consolidar os fundamentos de Desenvolvimento Web aprendidos no início da faculdade.
+Este projeto consiste em uma página informativa estática desenvolvida para organizar trilhas de estudo e as certificações essenciais para a área de Tecnologia da Informação, focados em Rede, infraestutura e Cloud. O objetivo principal deste repositório foi aplicar e consolidar os fundamentos de Desenvolvimento Web aprendidos no início da faculdade.
 
 Tecnologias e Ferramentas
 
